@@ -1,0 +1,12 @@
+# Core dependencies for the cognitive evaluator
+langchain>=0.2.0
+langchain-openai>=0.1.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+datasets>=2.0.0
+requests>=2.28.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+mypy>=1.0.0
