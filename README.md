@@ -90,7 +90,7 @@ Average Response Time: 2.1s
 
 ### Environment Variables (`.env`)
 ```env
-OPENROUTER_API_KEY=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
+OPENROUTER_API_KEY=sk-or-v1-...
 OPENROUTER_MODEL=mistralai/mistral-7b-instruct-v0.1
 MAX_SAMPLES=3
 ITERATIONS=1
