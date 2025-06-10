@@ -1,0 +1,48 @@
+{
+  "total_iterations": 1,
+  "overall_accuracy_percent": 100.0,
+  "overall_correct": 3,
+  "total_evaluations": 3,
+  "overall_avg_time": 12.644392728805542,
+  "iteration_summaries": [
+    {
+      "iteration": 1,
+      "accuracy_percent": 100.0,
+      "correct_count": 3,
+      "total_samples": 3,
+      "avg_response_time": 12.644392728805542
+    }
+  ],
+  "detailed_results": [
+    {
+      "iteration": 1,
+      "domain": "agent-properties",
+      "predicted": "1-1,2-2",
+      "correct": "1-1,2-2",
+      "is_correct": true,
+      "response_time": 11.795464992523193,
+      "agent_output": " Based on the analysis, the best context-target mapping is:\n- Context 1: Mohammed hates playing soccer more than playing chess.\n- Target 2: Mohammed makes less effort to play chess than to play soccer.\n- Context 2: Mohammed hates playing chess more than playing soccer.\n- Target 1: Mohammed makes more effort to play soccer than to play chess.",
+      "sample_id": null
+    },
+    {
+      "iteration": 1,
+      "domain": "agent-properties",
+      "predicted": "1-1,2-2",
+      "correct": "1-1,2-2",
+      "is_correct": true,
+      "response_time": 15.086560010910034,
+      "agent_output": " Based on the analysis, the best context-target mapping is:\n\n- Context 1: Li hears the piano (Target 1)\n- Context 2: Li does not hear the piano (Target 2)\n\nThis mapping is based on the fact that Li can hear the piano only when it is within earshot. In the first context, the piano is within earshot, so Li hears the piano. In the second context, the piano is out of earshot, so Li does not hear the piano.",
+      "sample_id": null
+    },
+    {
+      "iteration": 1,
+      "domain": "agent-properties",
+      "predicted": "1-1,2-2",
+      "correct": "1-1,2-2",
+      "is_correct": true,
+      "response_time": 11.051153182983398,
+      "agent_output": " Based on the analysis, the best context-target mapping is:\n\n- Context 1: Mohammed wants to see Carmen\n  - Target 2: Mohammed makes no effort to interact with Carmen\n- Context 2: Mohammed wants to avoid Carmen\n  - Target 1: Mohammed makes an effort to avoid interacting with Carmen (True)",
+      "sample_id": null
+    }
+  ]
+}
