@@ -35,6 +35,3 @@ def summarize_bdi(context, model_name="mistralai/mistral-7b-instruct"):
         except Exception:
             pass
     return {"belief": "", "desire": "", "intention": ""}
-
-# You can add more summarization modules here, e.g.:
-# def summarize_xyz(context, ...): ...

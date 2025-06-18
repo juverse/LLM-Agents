@@ -10,8 +10,9 @@ Es geht auch gratis mit mistralai/mistral-7b-instruct:free, ist aber viel langsa
 1. Die libraries aus requirements.txt installieren
 2. `huggingface-cli login` - der anleitung folgen, also token von huggingface erstellen und reinposten
 3. Openrouter API Key und model name (wenn ihr es ändern wollt) im code angeben
-4. `python test_openrouter.py`
+4. `python main.py [--max_items 1-9999] [--model openrouter_model_code] [--summarizer module/none]`
 
 
 
-Die vollen Ergebnisse von einem test mit mistral 7b sind in der csv.
+Analyze results:
+`python analyze_results.py [csv1] [optional:csv2, csv3, etc.]`
