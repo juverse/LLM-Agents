@@ -1,0 +1,13 @@
+# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI: {belief_desire_intention_context1}
+Context 2 BDI: {belief_desire_intention_context2}
+
+## Contexts
+1. "{context1}"
+2. "{context2}"
+
+## Scenario
+"{target}"
+
+Which context fits the scenario better? Answer only with "1" or "2".
