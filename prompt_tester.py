@@ -24,16 +24,22 @@ from prompt_loader import PromptLoader
 
 
 @dataclass
-class PromptEvaluationResult:
-    """Result of evaluating a single prompt on a sample."""
+class PromptResult:
+    """Represents the result of a single prompt evaluation."""
     prompt_name: str
-    sample_id: int
+    sample_id: Optional[Any]
     domain: str
     predicted: str
     correct: str
     is_correct: bool
     response_time: float
+    full_prompt: str
+    llm_response: str
     confidence: Optional[str] = None
+
+    def to_dict(self) -> Dict[str, Any]:
+        """Convert result to a dictionary for JSON serialization."""
+        return asdict(self)
 
 
 @dataclass
@@ -132,7 +138,7 @@ class PromptTester:
         df = pd.DataFrame(fallback_data)
         return df.head(min(self.max_samples, len(df)))
     
-    def evaluate_prompt_on_sample(self, prompt_name: str, row: pd.Series, sample_id: int) -> PromptEvaluationResult:
+    def evaluate_prompt_on_sample(self, prompt_name: str, row: pd.Series, sample_id: int) -> PromptResult:
         """Evaluate a single prompt on one sample."""
         start_time = time.time()
         
@@ -153,26 +159,30 @@ class PromptTester:
             # Extract prediction
             predicted = self._extract_prediction(response.content)
             
-            return PromptEvaluationResult(
+            return PromptResult(
                 prompt_name=prompt_name,
                 sample_id=sample_id,
                 domain=row['Domain'],
                 predicted=predicted,
                 correct="1-1,2-2",  # EWoK standard
                 is_correct=(predicted == "1-1,2-2"),
-                response_time=response_time
+                response_time=response_time,
+                full_prompt=formatted_prompt,
+                llm_response=response.content
             )
             
         except Exception as e:
             print(f"❌ Error evaluating {prompt_name} on sample {sample_id}: {e}")
-            return PromptEvaluationResult(
+            return PromptResult(
                 prompt_name=prompt_name,
                 sample_id=sample_id,
                 domain=row['Domain'],
                 predicted="ERROR",
                 correct="1-1,2-2",
                 is_correct=False,
-                response_time=0.0
+                response_time=0.0,
+                full_prompt=formatted_prompt,
+                llm_response=f"ERROR: {str(e)}"
             )
     
     def _extract_prediction(self, response_text: str) -> str:
@@ -230,7 +240,7 @@ class PromptTester:
         
         return prompt_summaries
     
-    def _calculate_prompt_summary(self, results: List[PromptEvaluationResult]) -> PromptPerformanceSummary:
+    def _calculate_prompt_summary(self, results: List[PromptResult]) -> PromptPerformanceSummary:
         """Calculate performance summary for a prompt."""
         correct_count = sum(1 for r in results if r.is_correct)
         accuracy = (correct_count / len(results)) * 100 if results else 0
@@ -258,7 +268,7 @@ class PromptTester:
             domain_breakdown=domain_breakdown
         )
     
-    def _save_results(self, all_results: List[PromptEvaluationResult], 
+    def _save_results(self, all_results: List[PromptResult], 
                      summaries: List[PromptPerformanceSummary]) -> None:
         """Save evaluation results to JSON file."""
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -269,7 +279,7 @@ class PromptTester:
             "total_samples": len(self.dataset),
             "prompts_tested": len(summaries),
             "prompt_summaries": [asdict(s) for s in summaries],
-            "detailed_results": [asdict(r) for r in all_results]
+            "detailed_results": [r.to_dict() for r in all_results]
         }
         
         with open(filename, 'w') as f:

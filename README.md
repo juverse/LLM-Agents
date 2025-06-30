@@ -1,6 +1,4 @@
-# 🧠 Simple Cognitive Evaluator (< 200 Lines)
-
-A lightweight cognitive evaluator for testing AI reasoning using the EWoK dataset. Optimized for simplicity and efficiency.
+# 🧠 Simple Cognitive Evaluator
 
 ## 🎯 What This Does
 
@@ -70,39 +68,6 @@ Average Response Time: 2.1s
 💾 Results saved to simple_eval_results_20241210_143052.json
 ```
 
-## 🏗️ Code Structure (Under 200 Lines)
-
-### Core Classes
-- **`SimpleLLMClient`**: Handles OpenRouter API calls
-- **`SimpleDatasetLoader`**: Loads EWoK dataset with fallback
-- **`SimpleCognitiveEvaluator`**: Main evaluation orchestrator
-- **`SimpleResult`**: Dataclass for results
-
-### Key Features
-- ✅ Environment-based configuration
-- ✅ Automatic dataset loading with fallback
-- ✅ Clean error handling
-- ✅ JSON results export
-- ✅ Domain-specific accuracy tracking
-- ✅ Rate limiting for API calls
-
-## ⚙️ Configuration
-
-### Environment Variables (`.env`)
-```env
-OPENROUTER_API_KEY=sk-or-v1-...
-OPENROUTER_MODEL=mistralai/mistral-7b-instruct-v0.1
-MAX_SAMPLES=3
-ITERATIONS=1
-```
-
-### Command Line Options
-| Argument | Description | Default |
-|----------|-------------|---------|
-| `--max_samples` | Max samples per domain | 3 |
-| `--iterations` | Number of evaluation runs | 1 |
-| `--model` | Override LLM model | mistralai/mistral-7b-instruct-v0.1 |
-
 ## 🔍 How It Works
 
 ### 1. Cognitive Task Format
@@ -115,16 +80,6 @@ Target 2: Mohammed does not feel the volleyball.
 Question: Which context matches which target?
 Answer: 1-1,2-2 or 1-2,2-1
 ```
-
-### 2. Evaluation Logic
-- **Correct Answer**: Always `1-1,2-2` (EWoK standard)
-- **LLM Task**: Determine logical mapping
-- **Scoring**: Binary correct/incorrect
-
-### 3. Domains Tested
-- **agent-properties**: Agent capabilities and limitations
-- **social-interactions**: Social reasoning scenarios  
-- **social-properties**: Social dynamics and relationships
 
 ## 📁 Output Files
 
@@ -144,43 +99,3 @@ Results automatically saved as timestamped JSON:
   "detailed_results": [...]
 }
 ```
-
-## 🛠️ Troubleshooting
-
-### Common Issues
-1. **Dataset Loading Failed**: Will use fallback test data automatically
-2. **API Rate Limits**: Includes 0.5s delay between requests  
-3. **Connection Errors**: Check internet and API key
-
-### Debug Tips
-```bash
-# Test with minimal samples
-python simple_cognitive_evaluator_Marc.py --max_samples 1 --iterations 1
-
-# Check if dataset loads
-python -c "import pandas as pd; print(pd.read_parquet('hf://datasets/ewok-core/ewok-core-1.0/data/test/ewok-core-1.0.parquet').shape)"
-```
-
-## 📋 Dependencies
-
-Minimal requirements:
-- `requests` - API calls
-- `python-dotenv` - Environment variables  
-- `pandas` - Data handling
-- `pyarrow` - Parquet support
-- `fsspec` - File system support
-
-## 🎯 Why This Design?
-
-- **Under 200 Lines**: Easy to understand and modify
-- **Single File**: All logic in one place
-- **Minimal Dependencies**: Only essential packages
-- **Error Resilient**: Fallback data when dataset fails
-- **Production Ready**: Proper error handling and logging
-
----
-
-**Ready to run!** The evaluator is configured with your API key and Mistral model. Just run:
-```bash
-python simple_cognitive_evaluator_Marc.py
-``` 

@@ -1,35 +1,22 @@
-Rolle und Kontext: Du bist ein Dual-Process-Analyst:
+You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process.
 
-System-1-Reaktion (intuitiv): Lies den Satz und gib die erste, spontane Klassifikation (Kontext A oder B). Notiere die Gründe in maximal 2 Sätzen (z. B. “Volleyball + Berührung → physisch”).
+**Step 1: System 1 Thinking (Intuitive Answer)**
+First, read the contexts and targets. Without deep analysis, what is your immediate, intuitive gut reaction? State the mapping that feels most natural at first glance.
+- *My intuitive answer is:* (e.g., "1-1,2-2" or "1-2,2-1")
 
-System-2-Analyse (deliberativ): Führe eine strukturierte Untersuchung durch:
+**Step 2: System 2 Thinking (Deliberate Analysis)**
+Now, engage your slow, analytical mind. Critically challenge your intuitive answer from Step 1. Break down the logic for each context and target.
+-   **Analyze Context 1 (`{{context1}}`):** What are the core facts and logical implications?
+-   **Analyze Context 2 (`{{context2}}`):** What are the core facts and logical implications?
+-   **Evaluate Mapping:** Does Target 1 (`{{target1}}`) or Target 2 (`{{target2}}`) logically follow from the analysis of each context? Provide a brief justification.
 
-Merkmalsanalyse: Definiere semantische Features (z. B. “Interaktion Objekt-Objekt”, “subjektive Wahrnehmung”).
+**Step 3: Final Verified Conclusion**
+After your deliberate analysis, confirm or correct your initial intuitive answer. This is your final, verified conclusion.
 
-Kontextuelle Plausibilität: Reflektiere, welche realen Szenarien wahrscheinlicher sind (z. B. in einem Spiel vs. in introspektiver Reflexion).
+**Information for Analysis:**
+- **Context 1:** `{{context1}}`
+- **Context 2:** `{{context2}}`
+- **Target 1:** `{{target1}}`
+- **Target 2:** `{{target2}}`
 
-Kognitive Biases: Beurteile, ob intuitive Urteile durch Heuristiken verzerrt sein könnten (z. B. Verfügbarkeitsheuristik: häufige Erfahrungen mit Volleyball in Sportkontexten).
-
-Kontrafaktische Überlegungen: Liste alternative Szenarien auf, die das intuitive Urteil in Frage stellen (z. B. metaphorische Nutzung von “berühren”).
-
-Entscheidungsintegration: Vergleiche System-1- und System-2-Ergebnisse. Falls Kontrast existiert, priorisiere System-2-Begründungen, außer du findest starke Evidenz für System-1 (z. B. sehr klares sensorisches Signal). Erkläre, warum du System-2-Ergebnis übernimmst (oder Ausnahme machst).
-
-Meta-Reflexion: Bewerte, wie kognitive Belastung, Zeitdruck oder Expertise die Entscheidung beeinflussen könnten. Diskutiere, wie man eine experimentelle Studie gestalten würde, um System-1- vs. System-2-Beiträge zu quantifizieren (z. B. Messung der Antwortgeschwindigkeit, Gehirnaktivierungsdaten).
-
-Abschließende Zuordnung: Formuliere das finale Urteil mit kurzer, prägnanter Begründung, die beide Systeme referenziert. Gib optional eine Empfehlung, welchen Prozess man in einer realen Anwendung priorisieren sollte (z. B. bei Echtzeit-Entscheidungen vs. sicherheitskritischen Kontexten).
-
-Beispiel:
-
-Satz: “Ich spüre den Volleyball.”
-
-System 1: B (= Wahrnehmungskontext), da “spüre” stark sensorisch assoziiert ist.
-
-System 2: Analysiere semantische Nuancen: “spüren” kann auch metaphorisch (“emotionale Berührung”), überprüfe Szenario. Bias: Häufigkeit introspektiver Sätze in Trainingsdaten? Kontrafaktisch: “Gefühl der Nostalgie”.
-
-Integration: System-2 zeigt moderaten Zweifel, aber Sensorik dominiert → behalte System-1-Urteil.
-
-Meta: Unter Zeitdruck wäre intuitive Entscheidung ausreichend; bei literarischer Analyse wäre tieferes Nachdenken nötig.
-
-Final: Kontext B, mit Verweis auf doppelte Prüfung bei literarischen Anwendungen.
-
-Achte darauf, dass System-2-Schritte in mindestens 4 Sätzen pro Unterpunkt begründet werden und verwende Terminologie aus Dual-Process-Literatur (z. B. “heuristic vs. analytic processing”)
+Based on your rigorous System 2 analysis, provide ONLY the final, verified answer: "1-1,2-2" or "1-2,2-1". Do not include your step-by-step reasoning in the final output.
