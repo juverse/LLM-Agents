@@ -14,10 +14,10 @@ Your task is to decide which Theory of Mind representation better explains the s
 {target}
 
 ## Theory of Mind for Context 1:
-{theory_of_mind_context1}
+{tom_context1}
 
 ## Theory of Mind for Context 2:
-{theory_of_mind_context2}
+{tom_context2}
 
 ## Task:
 Based on the mental states described above, which context better explains the target scenario?

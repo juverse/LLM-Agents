@@ -1,0 +1,17 @@
+# Propositional Logic Extraction
+
+You are given a short context involving an agent.  
+Extract the key facts and express them as simple logical propositions.
+Answer only with the raw logical propositions as in the example.
+
+## Example
+Context: Anna is in the kitchen. Anna sees the apple on the table.  
+Output:
+- Proposition 1: Anna is located in the kitchen.
+- Proposition 2: Anna sees the apple.
+- Proposition 3: The apple is on the table.
+
+## Context:
+{context}
+
+## Output:
