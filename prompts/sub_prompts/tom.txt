@@ -1,0 +1,21 @@
+# TASK: Theory of Mind Representation
+
+You will be given a short story context involving two or more people. 
+Your task is to identify the mental states of each character – specifically, what they believe, know, or want. 
+Focus especially on cases where someone does not know something, believes something incorrectly, or has different knowledge than others.
+
+## Context:
+{context}
+
+## Output Format:
+
+[Character A]:
+- Believes that ...
+- Doesn’t know that ...
+- Falsely believes that ...
+- Wants to ...
+
+[Character B]:
+- ...
+
+
