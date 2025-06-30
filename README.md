@@ -30,3 +30,16 @@ Guckt euch die Beispiele in den Ordnern an und eventuell das csv in results für
 Relevant sind die columns context a, context b, answer a, answer bm prompt 1, prompt_2.
 
 Das prompt template "study.txt" ist exakt der prompt, der in im paper verwendet wurde.
+
+
+## Results
+| name            | model                            |   overall |   agent-properties |   social-interactions |   social-properties |
+|:----------------|:---------------------------------|----------:|-------------------:|----------------------:|--------------------:|
+| bdi             | mistralai/mistral-7b-instruct    |     0.676 |              0.651 |                 0.78  |               0.727 |
+| study_mistral   | mistralai/mistral-7b-instruct    |     0.724 |              0.675 |                 0.826 |               0.927 |
+| nemo            | mistralai/mistral-nemo           |     0.693 |              0.631 |                 0.863 |               0.905 |
+| llama           | meta-llama/llama-3.1-8b-instruct |     0.597 |              0.571 |                 0.594 |               0.759 |
+| logic           | mistralai/mistral-7b-instruct    |     0.648 |              0.613 |                 0.737 |               0.773 |
+| tom             | mistralai/mistral-7b-instruct    |     0.717 |              0.678 |                 0.843 |               0.832 |
+| working_memory  | mistralai/mistral-7b-instruct    |     0.725 |              0.701 |                 0.82  |               0.781 |
+| decision_making | mistralai/mistral-7b-instruct    |     0.726 |              0.688 |                 0.794 |               0.892 |
