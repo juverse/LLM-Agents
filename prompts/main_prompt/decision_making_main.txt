@@ -1,0 +1,26 @@
+# TASK: Decision-based Evaluation
+
+You are given two story contexts, a scenario that follows, and decision-relevant inferences that were simulated for each context.
+
+Your task is to decide which simulated outcome makes the scenario more plausible, assuming a cognitive agent acted rationally based on its context.
+
+## Context 1:
+{context1}
+
+## Context 2:
+{context2}
+
+## Decision Inferences from Context 1:
+{decision_making_context1}
+
+## Decision Inferences from Context 2:
+{decision_making_context2}
+
+## Scenario:
+{target}
+
+## Question:
+Which set of decision inferences makes the scenario more plausible? Please answer using either "1" or "2".
+
+## Response
+
