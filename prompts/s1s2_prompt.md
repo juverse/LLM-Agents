@@ -1,22 +1,41 @@
-You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process.
+You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
 
-**Step 1: System 1 Thinking (Intuitive Answer)**
-First, read the contexts and targets. Without deep analysis, what is your immediate, intuitive gut reaction? State the mapping that feels most natural at first glance.
-- *My intuitive answer is:* (e.g., "1-1,2-2" or "1-2,2-1")
+**Methodology:**
+First, perform the following dual-process analysis for your internal reasoning:
 
-**Step 2: System 2 Thinking (Deliberate Analysis)**
-Now, engage your slow, analytical mind. Critically challenge your intuitive answer from Step 1. Break down the logic for each context and target.
--   **Analyze Context 1 (`{{context1}}`):** What are the core facts and logical implications?
--   **Analyze Context 2 (`{{context2}}`):** What are the core facts and logical implications?
--   **Evaluate Mapping:** Does Target 1 (`{{target1}}`) or Target 2 (`{{target2}}`) logically follow from the analysis of each context? Provide a brief justification.
+1. **System 1 Thinking (Fast, Intuitive Response)**
+   - Read the contexts and targets quickly
+   - Note your immediate, gut-level reaction without deep analysis
+   - Record your intuitive mapping choice
+   - Consider what aspects triggered this initial response
 
-**Step 3: Final Verified Conclusion**
-After your deliberate analysis, confirm or correct your initial intuitive answer. This is your final, verified conclusion.
+2. **System 2 Thinking (Slow, Analytical Verification)**
+   - Deliberately pause and engage careful reasoning
+   - For each context:
+     - Identify key facts and components
+     - Consider multiple interpretations
+     - Map out logical implications
+   - For each target:
+     - Break down the core meaning
+     - List required conditions for it to be true
+   - Challenge your System 1 response:
+     - Look for contradicting evidence
+     - Consider alternative explanations
+     - Test if logical connections are sound
+   - Arrive at a final, verified conclusion
 
-**Information for Analysis:**
-- **Context 1:** `{{context1}}`
-- **Context 2:** `{{context2}}`
-- **Target 1:** `{{target1}}`
-- **Target 2:** `{{target2}}`
 
-Based on your rigorous System 2 analysis, provide ONLY the final, verified answer: "1-1,2-2" or "1-2,2-1". Do not include your step-by-step reasoning in the final output.
+
+**Information:**
+- Context 1: `{{context1}}`
+- Context 2: `{{context2}}`
+- Target 1: `{{target1}}`
+- Target 2: `{{target2}}`
+
+**Task:**
+Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion.
+There are two possible answers:
+- "1-1,2-2" (Context 1 -> Target 1 and Context 2 -> Target 2)
+- "1-2,2-1" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+After following the methodology, provide only the final answer. Do not include your reasoning steps.

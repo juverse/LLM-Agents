@@ -76,7 +76,7 @@ class PromptTester:
         
         return {
             "api_key": api_key,
-            "model_name": os.getenv("DEFAULT_LLM_MODEL", "deepseek/deepseek-chat-v3-0324:free"),
+            "model_name": os.getenv("OPENROUTER_MODEL", os.getenv("DEFAULT_LLM_MODEL", "deepseek/deepseek-chat-v3-0324:free")),
             "timeout": int(os.getenv("RESPONSE_TIMEOUT", "30")),
             "dataset_path": os.getenv("DATASET_PATH", "hf://datasets/ewok-core/ewok-core-1.0/data/test/ewok-core-1.0.parquet"),
             "agentic_domains": ["agent-properties", "social-interactions", "social-properties"]
@@ -114,29 +114,7 @@ class PromptTester:
             
         except Exception as e:
             print(f"⚠️ Error loading dataset: {e}")
-            return self._create_fallback_dataset()
-    
-    def _create_fallback_dataset(self) -> pd.DataFrame:
-        """Create fallback dataset for testing."""
-        fallback_data = [
-            {
-                'Domain': 'agent-properties',
-                'Context1': 'An AI agent learns from feedback and adapts its behavior.',
-                'Context2': 'A mechanical device follows fixed programming rules.',
-                'Target1': 'This system demonstrates learning capabilities.',
-                'Target2': 'This system operates with predetermined responses.'
-            },
-            {
-                'Domain': 'social-properties',
-                'Context1': 'Two people share emotions during a conversation.',
-                'Context2': 'A person reads a book in solitude.',
-                'Target1': 'This involves emotional exchange and empathy.',
-                'Target2': 'This is an individual cognitive activity.'
-            }
-        ]
-        
-        df = pd.DataFrame(fallback_data)
-        return df.head(min(self.max_samples, len(df)))
+            return e
     
     def evaluate_prompt_on_sample(self, prompt_name: str, row: pd.Series, sample_id: int) -> PromptResult:
         """Evaluate a single prompt on one sample."""
@@ -159,13 +137,17 @@ class PromptTester:
             # Extract prediction
             predicted = self._extract_prediction(response.content)
             
+            # Use the actual correct answer from the dataset for evaluation
+            correct_answer = row.get('correct_completion', '1-1,2-2')
+            is_correct = (predicted == correct_answer)
+
             return PromptResult(
                 prompt_name=prompt_name,
                 sample_id=sample_id,
                 domain=row['Domain'],
                 predicted=predicted,
-                correct="1-1,2-2",  # EWoK standard
-                is_correct=(predicted == "1-1,2-2"),
+                correct=correct_answer,
+                is_correct=is_correct,
                 response_time=response_time,
                 full_prompt=formatted_prompt,
                 llm_response=response.content
@@ -173,15 +155,17 @@ class PromptTester:
             
         except Exception as e:
             print(f"❌ Error evaluating {prompt_name} on sample {sample_id}: {e}")
+            # Even on error, try to get the correct answer if the row exists
+            correct_answer_on_error = row.get('correct_completion', '1-1,2-2') if isinstance(row, pd.Series) else 'N/A'
             return PromptResult(
                 prompt_name=prompt_name,
                 sample_id=sample_id,
-                domain=row['Domain'],
+                domain=row.get('Domain', 'N/A'),
                 predicted="ERROR",
-                correct="1-1,2-2",
+                correct=correct_answer_on_error,
                 is_correct=False,
                 response_time=0.0,
-                full_prompt=formatted_prompt,
+                full_prompt=formatted_prompt if 'formatted_prompt' in locals() else "Prompt not generated",
                 llm_response=f"ERROR: {str(e)}"
             )
     

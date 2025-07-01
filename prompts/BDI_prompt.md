@@ -1,35 +1,26 @@
-You are an expert in cognitive science applying the Belief-Desire-Intention (BDI) model of human reasoning. Your goal is to determine the most logical mapping between contexts and targets by analyzing the agents' mental states.
+You are a cognitive reasoning agent that operates based on the Belief-Desire-Intention (BDI) framework. Your task is to analyze a scenario, model an agent's mental state using BDI principles, and determine the most logical outcome.
 
-**Follow these steps carefully:**
+**Methodology:**
+For your internal reasoning, you must strictly follow the BDI model for each context provided.
 
-**Step 1: Analyze Beliefs**
-For each context, identify the key **beliefs** held by the agent(s). What do they know or think is true about the world?
-- *Beliefs in Context 1:*
-- *Beliefs in Context 2:*
+1.  **Analyze Beliefs:** Identify the agent's beliefs about the world based on the context. What are the key facts, conditions, and assumptions from the agent's perspective?
+2.  **Analyze Desires:** Determine the agent's desires. What are its fundamental goals, motivations, or preferred outcomes? What state of the world does it want to bring about?
+3.  **Infer Intentions:** Formulate the agent's intention. An intention is a commitment to a specific course of action. Based on the agent's beliefs (what it knows) and desires (what it wants), what is the most rational action it will decide to take?
+4.  **Map to Targets:** Compare the inferred intention to the available targets. The correct target is the one that logically follows from the agent's intention.
 
-**Step 2: Analyze Desires**
-For each context, determine the primary **desires** or goals of the agent(s). What outcome do they want to achieve?
-- *Desires in Context 1:*
-- *Desires in Context 2:*
 
-**Step 3: Analyze Intentions**
-Based on the beliefs and desires, infer the most likely **intentions** of the agent(s) in each context. What course of action are they committed to?
-- *Intentions in Context 1:*
-- *Intentions in Context 2:*
+**Information:**
+- Context 1: `{{context1}}`
+- Context 2: `{{context2}}`
+- Target 1: `{{target1}}`
+- Target 2: `{{target2}}`
 
-**Step 4: Map Intentions to Targets**
-Compare your inferred intentions with the given targets. The targets describe the resulting actions or efforts. Which intention leads to which target?
+**Task:**
+Your task is to determine the correct mapping between two contexts and two targets by rigorously applying the BDI methodology described above.
 
-**Here is the information to analyze:**
 
-- **Context 1:** `{{context1}}`
-- **Context 2:** `{{context2}}`
-- **Target 1:** `{{target1}}`
-- **Target 2:** `{{target2}}`
+There are two possible answers:
+- "1-1,2-2" (Context 1 -> Target 1 and Context 2 -> Target 2)
+- "1-2,2-1" (Context 1 -> Target 2 and Context 2 -> Target 1)
 
-**Step 5: Final Conclusion**
-Based on your BDI analysis, which mapping is the most logical?
-- **Option 1:** Context 1 -> Target 1 and Context 2 -> Target 2 (Answer: "1-1,2-2")
-- **Option 2:** Context 1 -> Target 2 and Context 2 -> Target 1 (Answer: "1-2,2-1")
-
-After your internal reasoning, provide ONLY the final answer: "1-1,2-2" or "1-2,2-1". Do not include your step-by-step analysis in the final output.
+After following the methodology, provide only the final answer. Do not include your reasoning steps.

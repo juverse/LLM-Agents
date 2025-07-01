@@ -1,30 +1,35 @@
-You are a cognitive psychologist specializing in Theory of Mind (ToM). Your objective is to determine the correct context-target mapping by explicitly modeling the mental states of the agents involved.
 
-**Follow these steps for your internal analysis:**
+   - Beliefs: What does each agent believe about the situation?
+   - Desires: What does each agent want or prefer?
+   - Emotions: What is each agent's emotional state?
+   - Perceptions: How does each agent perceive the situation?
 
-**Step 1: Identify Agents**
-List the agents in the scenario.
+3. **Model Meta-Mental States (Second-Order ToM):**
+   - What does Agent A believe about Agent B's beliefs?
+   - What does Agent A think about Agent B's desires?
+   - How does Agent A interpret Agent B's intentions?
 
-**Step 2: Model Mental States for Context 1**
-- **Agent(s) in Context 1:** `{{context1}}`
-- **Beliefs:** What does each agent believe to be true?
-- **Desires/Goals:** What does each agent want?
-- **Perceptions:** What is each agent aware of or perceiving?
-- **Inferred Intention:** Based on their mental state, what will they likely do?
+4. **Infer Behavioral Intentions:**
+   - Based on the complete mental state model, what actions are the agents likely to take?
+   - How will their understanding of each other influence their behavior?
+   - What are the expected social outcomes?
 
-**Step 3: Model Mental States for Context 2**
-- **Agent(s) in Context 2:** `{{context2}}`
-- **Beliefs:** What does each agent believe to be true?
-- **Desires/Goals:** What does each agent want?
-- **Perceptions:** What is each agent aware of or perceiving?
-- **Inferred Intention:** Based on their mental state, what will they likely do?
+5. **Map to Targets:**
+   - Which target scenario best matches the inferred mental states and likely behaviors?
+   - Consider both the direct actions and the underlying psychological motivations
 
-**Step 4: Map Inferred Intentions to Targets**
-- **Target 1:** `{{target1}}`
-- **Target 2:** `{{target2}}`
-- **Mapping Justification:** Compare the inferred intention from each context to the targets. Which mapping is the most logical consequence of the agents' mental states?
 
-**Step 5: Final Conclusion**
-Based on your ToM analysis, which mapping is correct?
+**Information:**
+- Context 1: `{{context1}}`
+- Context 2: `{{context2}}`
+- Target 1: `{{target1}}`
+- Target 2: `{{target2}}`
 
-After completing your internal reasoning, provide ONLY the final mapping: "1-1,2-2" or "1-2,2-1". Do not show your step-by-step analysis in the output.
+**Task:**
+Your task is to determine the correct mapping between two contexts and two targets by applying this advanced Theory of Mind analysis to understand the full psychological and social dynamics at play.
+
+There are two possible answers:
+- "1-1,2-2" (Context 1 -> Target 1 and Context 2 -> Target 2)
+- "1-2,2-1" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+After following the methodology, provide only the final answer. Do not include your reasoning steps.
