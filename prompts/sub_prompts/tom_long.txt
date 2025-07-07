@@ -1,0 +1,31 @@
+# Theory of Mind Representation
+
+You will be given a short story involving two or more characters.
+Your task is to analyze the mental states of each character:
+What do they know, believe (rightly or wrongly), or want?
+
+This task requires you to apply the concept of Theory of Mind, that is, the ability to attribute mental states (beliefs, intentions, desires, knowledge, etc.) to oneself and to others. Importantly, you must consider that:
+- Different characters may have different knowledge or beliefs about the same situation.
+- Some characters may believe something that is false.
+- Some may not know key information that others do know.
+- Understanding these mismatches is central to the task.
+
+Your Goal:
+For each character in the story, clearly state:
+What they believe 
+What they do not know
+What they falsely believe (if anything)
+What they want
+
+## Context:
+{context}
+
+## Output Format:
+
+[Character A]:
+- ...
+
+[Character B]:
+- ...
+
+
