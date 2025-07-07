@@ -1,0 +1,22 @@
+# INSTRUCTIONS
+
+In this task, you will read two different short stories (contexts), followed by a scenario that could plausibly follow from one of them.
+Your goal is to determine which of the two contexts (1 or 2) better supports the scenario.
+
+## TASK EXAMPLE
+### Contexts
+**Context 1**: {context1}  
+**Context 2**: {context2}
+
+### Scenario
+{target}
+
+# TASK
+Let’s think step by step:
+1. What key beliefs or facts are relevant in each context?
+2. What might the agent(s) in each context want or intend to do?
+3. How might they act, and which of those actions would make the given scenario more likely?
+
+Use these reflections to compare the two situations. Then, choose the context that best supports the scenario.
+
+### Final Answer (respond only with “1” or “2”):  
