@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import argparse
 import datetime
 import sys
+import re
 
 # === Setup ===
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
@@ -161,7 +162,8 @@ def main():
     main_template_path = os.path.join("prompts", "main_prompt", f"{args.main_prompt}.txt")
     main_template = load_prompt(main_template_path)
 
-    sub_names = [n.strip() for n in args.sub_prompts.split(',') if n.strip()]
+    matches = re.findall(r"\{(\w+)_context[12]\}", main_template)
+    sub_names = sorted(set(matches))  # deduplicate
     sub_templates = load_subprompts(os.path.join("prompts", "sub_prompts"), names=sub_names)
 
     splits = ["agent-properties", "social-interactions", "social-properties"]
