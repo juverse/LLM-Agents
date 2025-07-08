@@ -11,13 +11,12 @@ Please read all the information carefully and choose the context (1 or 2) that b
 ## Cognitive Module Outputs:
 
 ### Working Memory
-1.{working_memory_context1}  
-2.{working_memory_context2}
+1.{working_memory2_context1}  
+2.{working_memory2_context2}
 
 ### Decision-Making
-1.{decision_making_context1}  
-2.{decision_making_context2}
-
+1.{decision_making2_context1}  
+2.{decision_making2_context2}
 
 ## TEST EXAMPLE
 
