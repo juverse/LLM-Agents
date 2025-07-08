@@ -32,15 +32,20 @@ Relevant sind die columns context a, context b, answer a, answer bm prompt 1, pr
 Das prompt template "study.txt" ist exakt der prompt, der in im paper verwendet wurde.
 
 ## Results
-| name                          | model                                 |   overall |   agent-properties |   social-interactions |   social-properties |
-|:------------------------------|:--------------------------------------|----------:|-------------------:|----------------------:|--------------------:|
-| bdi                           | mistralai/mistral-7b-instruct         |     0.676 |              0.651 |                 0.78  |               0.727 |
-| study_mistral                 | mistralai/mistral-7b-instruct         |     0.724 |              0.675 |                 0.826 |               0.927 |
-| nemo                          | mistralai/mistral-nemo                |     0.693 |              0.631 |                 0.863 |               0.905 |
-| llama                         | meta-llama/llama-3.1-8b-instruct      |     0.597 |              0.571 |                 0.594 |               0.759 |
-| logic                         | mistralai/mistral-7b-instruct         |     0.648 |              0.613 |                 0.737 |               0.773 |
-| tom                           | mistralai/mistral-7b-instruct         |     0.717 |              0.678 |                 0.843 |               0.832 |
-| working_memory                | mistralai/mistral-7b-instruct         |     0.725 |              0.701 |                 0.82  |               0.781 |
-| decision_making               | mistralai/mistral-7b-instruct         |     0.726 |              0.688 |                 0.794 |               0.892 |
-| gemini                        | google/gemini-2.5-flash-preview-05-20 |     0.77  |              0.712 |                 0.923 |               0.973 |
-| 2025-07-01T17-53-45_ewok_eval | mistralai/mistral-7b-instruct         |     0.684 |              0.646 |                 0.803 |               0.797 |
+| name               | model                                                |   overall |   agent-properties |   social-interactions |   social-properties |
+|:-------------------|:-----------------------------------------------------|----------:|-------------------:|----------------------:|--------------------:|
+| bdi                | mistralai/mistral-7b-instruct                        |     0.676 |              0.651 |                 0.78  |               0.727 |
+| study_mistral      | mistralai/mistral-7b-instruct                        |     0.724 |              0.675 |                 0.826 |               0.927 |
+| nemo               | mistralai/mistral-nemo                               |     0.693 |              0.631 |                 0.863 |               0.905 |
+| llama              | meta-llama/llama-3.1-8b-instruct                     |     0.597 |              0.571 |                 0.594 |               0.759 |
+| logic              | mistralai/mistral-7b-instruct                        |     0.648 |              0.613 |                 0.737 |               0.773 |
+| tom                | mistralai/mistral-7b-instruct                        |     0.717 |              0.678 |                 0.843 |               0.832 |
+| working_memory     | mistralai/mistral-7b-instruct                        |     0.725 |              0.701 |                 0.82  |               0.781 |
+| decision_making    | mistralai/mistral-7b-instruct                        |     0.726 |              0.688 |                 0.794 |               0.892 |
+| localquant         | neuralmagic/Mistral-7B-Instruct-v0.3-quantized.w8a16 |     0.722 |              0.679 |                 0.806 |               0.903 |
+| logprob            | neuralmagic/Mistral-7B-Instruct-v0.3-quantized.w8a16 |     0.701 |              0.679 |                 0.774 |               0.759 |
+| combination_all    | mistralai/mistral-7b-instruct                        |     0.754 |              0.717 |                 0.857 |               0.884 |
+| cot                | mistralai/mistral-7b-instruct                        |     0.543 |              0.533 |                 0.551 |               0.592 |
+| combination_tom_dm | mistralai/mistral-7b-instruct                        |     0.735 |              0.696 |                 0.854 |               0.859 |
+| combination_dm_wm  | mistralai/mistral-7b-instruct                        |     0.753 |              0.716 |                 0.86  |               0.876 |
+| combination_tom_wm | mistralai/mistral-7b-instruct                        |     0.748 |              0.709 |                 0.877 |               0.865 |
