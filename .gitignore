@@ -2,3 +2,5 @@ venv/
 .git/
 memory_state.pkl
 MEMORY_README.md
+.gitignore
+.claude/
