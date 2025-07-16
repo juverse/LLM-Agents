@@ -103,8 +103,13 @@ def create_bar_plot(data_df, output_file='benchmark_results.png'):
         # Add value labels on bars
         for bar, value in zip(bars, values):
             if not pd.isna(value) and value > 0:
-                ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.01,
-                       f'{value:.3f}', ha='center', va='bottom', fontsize=8)
+                # If value is close to 1.0, place label below the bar
+                if value > 0.95:
+                    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() - 0.03,
+                           f'{value:.3f}', ha='center', va='top', fontsize=8)
+                else:
+                    ax.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.01,
+                           f'{value:.3f}', ha='center', va='bottom', fontsize=8)
     
     # Customize the plot
     ax.set_xlabel('Benchmark Runs', fontsize=12, fontweight='bold')
@@ -114,7 +119,7 @@ def create_bar_plot(data_df, output_file='benchmark_results.png'):
     ax.set_xticklabels(data_df['run'], rotation=45, ha='right')
     ax.legend(title='Split Conditions', bbox_to_anchor=(1.05, 1), loc='upper left')
     ax.grid(True, alpha=0.3, axis='y')
-    ax.set_ylim(0, 1.1)  # Assuming scores are between 0 and 1
+    ax.set_ylim(0, 1.0)  # Scores are between 0 and 1
     
     # Adjust layout to prevent label cutoff
     plt.tight_layout()
