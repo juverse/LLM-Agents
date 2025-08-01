@@ -1,0 +1,6 @@
+openai
+pandas
+tqdm
+pyarrow
+huggingface-hub
+google-genai

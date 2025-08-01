@@ -1,0 +1,24 @@
+# Working Memory-Based Decision
+
+You are given two sets of beliefs derived from two story contexts, as well as a follow-up scenario.
+Your task is to decide which belief set is more consistent with the scenario, assuming a reasoning agent uses these beliefs to interpret or anticipate what happens.
+
+## Context 1:
+{context1}
+
+## Context 2:
+{context2}
+
+## Beliefs from Context 1:
+{working_memory_context1}
+
+## Beliefs from Context 2:
+{working_memory_context2}
+
+## Scenario:
+{target}
+
+## Task:
+Which belief set better supports the scenario? Please answer using either "1" or "2".
+
+## Response

@@ -1,0 +1,16 @@
+# Decision-making 2
+
+You are given a short story context. Your task is to simulate a cognitive agent's reasoning process. Based on the context, identify possible beliefs, goals, or agent properties that are relevant, and infer what is likely to happen or be intended.
+
+## Context:
+{context}
+
+## Output Format:
+Beliefs and Assumptions:
+- ...
+
+Inferred Agent Goals or Intentions:
+- ...
+
+Likely Outcomes or Expectations:
+- ...

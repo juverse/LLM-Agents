@@ -1,0 +1,15 @@
+# INSTRUCTIONS
+In this study, you will see multiple examples. In each example, you will be given two contexts and a scenario. Your task is to read the two contexts and the subsequent scenario, and pick the context that makes more sense considering the scenario that follows. The contexts will be numbered "1" or "2". You must answer using "1" or "2" in your response.
+
+# TEST EXAMPLE
+## Contexts
+1. "{context1}"
+2. "{context2}"
+
+## Scenario
+"{target}"
+
+## Task
+Which context makes more sense given the scenario? Please answer using either "1" or "2".
+
+## Response

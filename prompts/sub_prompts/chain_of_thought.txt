@@ -1,0 +1,10 @@
+Analyze this context step by step:
+
+**Context**: {context}
+
+Think through:
+1. What key beliefs or facts are relevant in this context?
+2. What might the agent(s) in this context want or intend to do?
+3. How might they act based on these beliefs and intentions?
+
+Provide your analysis:

@@ -1,0 +1,35 @@
+# INSTRUCTIONS
+
+In this task, you will be presented with two contexts describing different situations, followed by a scenario that could plausibly follow one of them. Your job is to determine which context more plausibly leads to the given scenario.
+
+To help with your decision, we provide three cognitive components for each context:
+1. Working Memory: The key beliefs and facts an intelligent agent would hold based on the context.
+3. Decision Making: A high-level evaluation of how the context might influence future actions or outcomes.
+
+Please read all the information carefully and choose the context (1 or 2) that better supports the scenario based on the provided cognitive interpretations.
+
+## Cognitive Module Outputs:
+
+### Working Memory
+1.{working_memory2_context1}  
+2.{working_memory2_context2}
+
+### Decision-Making
+1.{decision_making2_context1}  
+2.{decision_making2_context2}
+
+## TEST EXAMPLE
+
+### Contexts
+1. {context1}  
+2. {context2}
+
+### Scenario
+{target}
+
+## TASK
+
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with "1" or "2".
+
+## Response:
+

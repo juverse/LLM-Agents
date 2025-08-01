@@ -1,0 +1,26 @@
+# INSTRUCTIONS
+In this study, you will see multiple examples. In each example, you will be given two contexts and a scenario. Your task is to read the two contexts and the subsequent scenario, and pick the context that makes more sense considering the scenario that follows.
+
+## ANALYSIS APPROACH
+For each context, quickly consider:
+- **What does the person believe?** (their understanding of the situation)
+- **What does the person want?** (their goals or desires)
+- **What is the person planning to do?** (their intended actions)
+
+Then pick the context where these mental states better match the scenario.
+
+# TEST EXAMPLE
+## Contexts
+1. "{context1}"
+2. "{context2}"
+
+## Scenario
+"{target}"
+
+## Task
+Which context makes more sense given the scenario? Consider what each person believes, wants, and intends to do.
+After answering this, answer the question and find the right target to context 
+
+Please answer using either "1" or "2".
+
+## Response

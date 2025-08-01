@@ -1,0 +1,15 @@
+# Working Memory Representation
+
+You are given a story context.
+Your task is to simulate the working memory of a cognitive agent.
+
+Working memory temporarily holds the most relevant information needed for reasoning and decision-making.
+Extract the key beliefs, facts, and assumptions that an intelligent agent would actively maintain to interpret the current situation or predict what might happen next.
+
+## Context:
+{context}
+
+## Output Format:
+- [belief1]
+- [belief2]
+- ...

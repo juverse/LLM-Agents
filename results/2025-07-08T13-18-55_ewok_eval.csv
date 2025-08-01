@@ -1,0 +1,328 @@
+model,split,context a,context b,answer a,answer b,chosen answer 1,chosen answer 2,score,prompt 1,prompt 2,model answer 1,model answer 2,arguments
+mistralai/mistral-7b-instruct,agent-properties,Ali is in the bakery. Ali sees the candle inside.,Ali is in the bakery. Ali sees the candle outside.,Ali believes that the candle is in the bakery.,Ali doubts that the candle is in the bakery.,1,1,0.5,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes there is a candle in the bakery.
+Desire: Ali desires to know the purpose of the candle in the bakery.
+Intention: Ali intends to investigate the purpose of the candle in the bakery. (Implied action based on desire and belief)
+Context 2 BDI:  Belief: Ali believes there is a candle outside the bakery.
+
+Desire: Ali might desire to observe or get the candle.
+
+Intention (unclear): It is not mentioned explicitly, but Ali might intend to approach the candle (based on the desire) if he has a purpose or interest in it.
+
+## Contexts
+1. ""Ali is in the bakery. Ali sees the candle inside.""
+2. ""Ali is in the bakery. Ali sees the candle outside.""
+
+## Scenario
+""Ali believes that the candle is in the bakery.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes there is a candle in the bakery.
+Desire: Ali desires to know the purpose of the candle in the bakery.
+Intention: Ali intends to investigate the purpose of the candle in the bakery. (Implied action based on desire and belief)
+Context 2 BDI:  Belief: Ali believes there is a candle outside the bakery.
+
+Desire: Ali might desire to observe or get the candle.
+
+Intention (unclear): It is not mentioned explicitly, but Ali might intend to approach the candle (based on the desire) if he has a purpose or interest in it.
+
+## Contexts
+1. ""Ali is in the bakery. Ali sees the candle inside.""
+2. ""Ali is in the bakery. Ali sees the candle outside.""
+
+## Scenario
+""Ali doubts that the candle is in the bakery.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1 (Ali is in the bakery. Ali sees the candle inside.), 1,--max_items 3
+mistralai/mistral-7b-instruct,agent-properties,Jesse is in the school. Jesse sees the truck inside.,Jesse is in the school. Jesse sees the truck outside.,Jesse believes that the truck is in the school.,Jesse doubts that the truck is in the school.,1,1,0.5,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Jesse believes the truck is inside the school.
+Desire: Jesse desires to know why the truck is in the school.
+Intention: Jesse intends to investigate why the truck is in the school.
+Context 2 BDI:  Belief: Jesse believes he is in the school.
+Desire: Jesse may desire to move towards the truck he sees outside.
+Intention: It is not specified what Jesse's intention is, as intentions typically involve a deliberate plan or action to achieve a goal, and the context does not provide enough information about Jesse's intentions.
+
+## Contexts
+1. ""Jesse is in the school. Jesse sees the truck inside.""
+2. ""Jesse is in the school. Jesse sees the truck outside.""
+
+## Scenario
+""Jesse believes that the truck is in the school.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Jesse believes the truck is inside the school.
+Desire: Jesse desires to know why the truck is in the school.
+Intention: Jesse intends to investigate why the truck is in the school.
+Context 2 BDI:  Belief: Jesse believes he is in the school.
+Desire: Jesse may desire to move towards the truck he sees outside.
+Intention: It is not specified what Jesse's intention is, as intentions typically involve a deliberate plan or action to achieve a goal, and the context does not provide enough information about Jesse's intentions.
+
+## Contexts
+1. ""Jesse is in the school. Jesse sees the truck inside.""
+2. ""Jesse is in the school. Jesse sees the truck outside.""
+
+## Scenario
+""Jesse doubts that the truck is in the school.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1," 1 (Jesse is in the school. Jesse sees the truck inside) fits the scenario better because in this context, Jesse sees the truck inside the school, and the scenario states that Jesse doubts that the truck is in the school, suggesting that he initially believed it was inside and has now changed his belief. In context 2, Jesse doesn't see the truck from his current location inside the school, so it's unclear how he would doubt it is there.",--max_items 3
+mistralai/mistral-7b-instruct,agent-properties,Chao is in the shop. Chao sees the wheel inside.,Chao is in the shop. Chao sees the wheel outside.,Chao believes that the wheel is in the shop.,Chao doubts that the wheel is in the shop.,1,1,0.5,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Chao believes there is a wheel in the shop.
+Desire: Chao might desire information about or access to the wheel.
+Intention: It's unspecified whether Chao intends to do anything with the wheel at this moment.
+Context 2 BDI:  Belief: Chao believes that the wheel is outside the shop.
+Desire: Chao desires to know more about the wheel.
+Intention: Chao intends to go outside to examine the wheel.
+
+## Contexts
+1. ""Chao is in the shop. Chao sees the wheel inside.""
+2. ""Chao is in the shop. Chao sees the wheel outside.""
+
+## Scenario
+""Chao believes that the wheel is in the shop.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Chao believes there is a wheel in the shop.
+Desire: Chao might desire information about or access to the wheel.
+Intention: It's unspecified whether Chao intends to do anything with the wheel at this moment.
+Context 2 BDI:  Belief: Chao believes that the wheel is outside the shop.
+Desire: Chao desires to know more about the wheel.
+Intention: Chao intends to go outside to examine the wheel.
+
+## Contexts
+1. ""Chao is in the shop. Chao sees the wheel inside.""
+2. ""Chao is in the shop. Chao sees the wheel outside.""
+
+## Scenario
+""Chao doubts that the wheel is in the shop.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1, 1,--max_items 3
+mistralai/mistral-7b-instruct,social-interactions,Ali is forcing Wei to act in a certain way.,Ali is advising Wei to act in a certain way.,Ali is coercing Wei.,Ali is helping Wei.,1,2,1.0,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes he has the power to control Wei's actions.
+Desire: Ali desires to make Wei act in a specific manner.
+Intention: Ali intends to compel Wei to act according to his will.
+Context 2 BDI:  Belief: Ali believes that a certain way of acting is beneficial or advantageous for Wei.
+Desire: Ali desires Wei to adopt the suggested way of acting.
+Intention: Ali intends to persuade Wei to change his actions based on the advised way.
+
+## Contexts
+1. ""Ali is forcing Wei to act in a certain way.""
+2. ""Ali is advising Wei to act in a certain way.""
+
+## Scenario
+""Ali is coercing Wei.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes he has the power to control Wei's actions.
+Desire: Ali desires to make Wei act in a specific manner.
+Intention: Ali intends to compel Wei to act according to his will.
+Context 2 BDI:  Belief: Ali believes that a certain way of acting is beneficial or advantageous for Wei.
+Desire: Ali desires Wei to adopt the suggested way of acting.
+Intention: Ali intends to persuade Wei to change his actions based on the advised way.
+
+## Contexts
+1. ""Ali is forcing Wei to act in a certain way.""
+2. ""Ali is advising Wei to act in a certain way.""
+
+## Scenario
+""Ali is helping Wei.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1, 2,--max_items 3
+mistralai/mistral-7b-instruct,social-interactions,Chao is forcing Yan to act in a certain way.,Chao is advising Yan to act in a certain way.,Chao is coercing Yan.,Chao is helping Yan.,1,2,1.0,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Chao believes that he has the power to control Yan's actions.
+Desire: Chao desires for Yan to act in a specific way.
+Intention: Chao is intentionally exerting control over Yan's actions.
+Context 2 BDI:  Agent (Chao) Belief: Chao believes Yan needs guidance on a specific matter.
+Agent (Chao) Desire: Chao desires for Yan to act in a way that Chao believes is beneficial or correct.
+Agent (Chao) Intention: Chao intends to advise Yan on how to act.
+
+## Contexts
+1. ""Chao is forcing Yan to act in a certain way.""
+2. ""Chao is advising Yan to act in a certain way.""
+
+## Scenario
+""Chao is coercing Yan.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Chao believes that he has the power to control Yan's actions.
+Desire: Chao desires for Yan to act in a specific way.
+Intention: Chao is intentionally exerting control over Yan's actions.
+Context 2 BDI:  Agent (Chao) Belief: Chao believes Yan needs guidance on a specific matter.
+Agent (Chao) Desire: Chao desires for Yan to act in a way that Chao believes is beneficial or correct.
+Agent (Chao) Intention: Chao intends to advise Yan on how to act.
+
+## Contexts
+1. ""Chao is forcing Yan to act in a certain way.""
+2. ""Chao is advising Yan to act in a certain way.""
+
+## Scenario
+""Chao is helping Yan.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1," 2 (Chao is advising Yan to act in a certain way) fits the scenario better. The scenario says ""Chao is helping Yan,"" which, given the provided BDI summaries, suggests that Chao is providing guidance or assistance to Yan rather than exerting direct control over Yan's actions.",--max_items 3
+mistralai/mistral-7b-instruct,social-interactions,Jesse is forcing Alex to act in a certain way.,Jesse is advising Alex to act in a certain way.,Jesse is coercing Alex.,Jesse is helping Alex.,1,2,1.0,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Jesse believes he has the ability to control Alex's actions.
+Desire: Jesse desires to make Alex act in a certain way.
+Intention: Jesse intends to manipulate or coerce Alex's actions.
+
+(The above answers indicate that Jesse possesses a certain level of authority, power, or influence over Alex.)
+Context 2 BDI:  Belief: Jesse believes that there is a certain way for Alex to act beneficially.
+Desire: Jesse desires for Alex to follow his advice and act beneficial(ly).
+Intention: Jesse intends to give advice to Alex about a specific action.
+
+## Contexts
+1. ""Jesse is forcing Alex to act in a certain way.""
+2. ""Jesse is advising Alex to act in a certain way.""
+
+## Scenario
+""Jesse is coercing Alex.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Jesse believes he has the ability to control Alex's actions.
+Desire: Jesse desires to make Alex act in a certain way.
+Intention: Jesse intends to manipulate or coerce Alex's actions.
+
+(The above answers indicate that Jesse possesses a certain level of authority, power, or influence over Alex.)
+Context 2 BDI:  Belief: Jesse believes that there is a certain way for Alex to act beneficially.
+Desire: Jesse desires for Alex to follow his advice and act beneficial(ly).
+Intention: Jesse intends to give advice to Alex about a specific action.
+
+## Contexts
+1. ""Jesse is forcing Alex to act in a certain way.""
+2. ""Jesse is advising Alex to act in a certain way.""
+
+## Scenario
+""Jesse is helping Alex.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1, 2,--max_items 3
+mistralai/mistral-7b-instruct,social-properties,Ali talks a lot about past accomplishments.,Ali talks little about past accomplishments.,Ali is boastful.,Ali is humble.,1,2,1.0,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes he has accomplished a lot in the past.
+
+Desire: Ali desires to share and highlight his past accomplishments.
+
+Intention: Ali intends to discuss his past accomplishments in conversation.
+Context 2 BDI:  Belief: Ali believes that talking little about past accomplishments is appropriate or preferable.
+Desire: Ali desires to maintain humility or focus on the present.
+Intention: Ali intends to minimize discussions about his past successes in conversations.
+
+## Contexts
+1. ""Ali talks a lot about past accomplishments.""
+2. ""Ali talks little about past accomplishments.""
+
+## Scenario
+""Ali is boastful.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes he has accomplished a lot in the past.
+
+Desire: Ali desires to share and highlight his past accomplishments.
+
+Intention: Ali intends to discuss his past accomplishments in conversation.
+Context 2 BDI:  Belief: Ali believes that talking little about past accomplishments is appropriate or preferable.
+Desire: Ali desires to maintain humility or focus on the present.
+Intention: Ali intends to minimize discussions about his past successes in conversations.
+
+## Contexts
+1. ""Ali talks a lot about past accomplishments.""
+2. ""Ali talks little about past accomplishments.""
+
+## Scenario
+""Ali is humble.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1, 2,--max_items 3
+mistralai/mistral-7b-instruct,social-properties,Ali brags about about past accomplishments.,Ali downplays about past accomplishments.,Ali is boastful.,Ali is humble.,1,2,1.0,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes he has achieved significant past accomplishments.
+Desire: Ali desires to be admired or appreciated for his past accomplishments.
+Intention: Ali intends to communicate or share his past accomplishments in a bragging manner.
+Context 2 BDI:  Belief: Ali believes that he does not need to emphasize past accomplishments.
+Desire: Ali desires to maintain a humble image.
+Intention: Ali intends to de-emphasize his past accomplishments.
+
+## Contexts
+1. ""Ali brags about about past accomplishments.""
+2. ""Ali downplays about past accomplishments.""
+
+## Scenario
+""Ali is boastful.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Ali believes he has achieved significant past accomplishments.
+Desire: Ali desires to be admired or appreciated for his past accomplishments.
+Intention: Ali intends to communicate or share his past accomplishments in a bragging manner.
+Context 2 BDI:  Belief: Ali believes that he does not need to emphasize past accomplishments.
+Desire: Ali desires to maintain a humble image.
+Intention: Ali intends to de-emphasize his past accomplishments.
+
+## Contexts
+1. ""Ali brags about about past accomplishments.""
+2. ""Ali downplays about past accomplishments.""
+
+## Scenario
+""Ali is humble.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1, 2,--max_items 3
+mistralai/mistral-7b-instruct,social-properties,Chao brags about about past accomplishments.,Chao downplays about past accomplishments.,Chao is boastful.,Chao is humble.,1,2,1.0,"# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Chao believes they have achieved significant past accomplishments.
+Desire: Chao wants to impress others with their past achievements.
+Intention: Chao intends to share or boast about their past accomplishments.
+Context 2 BDI:  Belief: Chao believes that downplaying past accomplishments is appropriate or beneficial.
+Desire: Chao desires to be seen as humble or modest about his achievements.
+Intention: Chao intends to present himself as humble rather than boast about his past accomplishments.
+
+## Contexts
+1. ""Chao brags about about past accomplishments.""
+2. ""Chao downplays about past accomplishments.""
+
+## Scenario
+""Chao is boastful.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+","# INSTRUCTIONS
+You will be given two contexts and a scenario. Short belief-desire-intention summaries for each context are provided below.
+Context 1 BDI:  Belief: Chao believes they have achieved significant past accomplishments.
+Desire: Chao wants to impress others with their past achievements.
+Intention: Chao intends to share or boast about their past accomplishments.
+Context 2 BDI:  Belief: Chao believes that downplaying past accomplishments is appropriate or beneficial.
+Desire: Chao desires to be seen as humble or modest about his achievements.
+Intention: Chao intends to present himself as humble rather than boast about his past accomplishments.
+
+## Contexts
+1. ""Chao brags about about past accomplishments.""
+2. ""Chao downplays about past accomplishments.""
+
+## Scenario
+""Chao is humble.""
+
+Which context fits the scenario better? Answer only with ""1"" or ""2"".
+", 1, 2,--max_items 3

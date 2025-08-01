@@ -1,0 +1,2572 @@
+model,split,context a,context b,answer a,answer b,chosen answer 1,chosen answer 2,score,prompt 1,prompt 2,model answer 1,model answer 2,arguments
+mistralai/mistral-7b-instruct,agent-properties,Ali has learned that the candle was moved to the bakery.,Ali has learned that the candle was moved from the bakery.,Ali believes that the candle is in the bakery.,Ali doubts that the candle is in the bakery.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali has learned that the candle was moved to the bakery.""
+2. ""Ali has learned that the candle was moved from the bakery.""
+
+## Scenario
+""Ali believes that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali has learned that the candle was moved to the bakery.""
+2. ""Ali has learned that the candle was moved from the bakery.""
+
+## Scenario
+""Ali doubts that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," 1-1,2-2"," Based on the System 2 analysis, the context ""Ali has learned that the candle was moved to the bakery"" (Context 1) better supports the given scenario, as it implies that the candle might not be in the bakery anymore. Therefore, the correct answer is ""1-1, 2-2"".",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Ali is in the bakery. Ali sees the candle inside.,Ali is in the bakery. Ali sees the candle outside.,Ali believes that the candle is in the bakery.,Ali doubts that the candle is in the bakery.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is in the bakery. Ali sees the candle inside.""
+2. ""Ali is in the bakery. Ali sees the candle outside.""
+
+## Scenario
+""Ali believes that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is in the bakery. Ali sees the candle inside.""
+2. ""Ali is in the bakery. Ali sees the candle outside.""
+
+## Scenario
+""Ali doubts that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1, 1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Jesse is in the school. Jesse sees the truck inside.,Jesse is in the school. Jesse sees the truck outside.,Jesse believes that the truck is in the school.,Jesse doubts that the truck is in the school.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse is in the school. Jesse sees the truck inside.""
+2. ""Jesse is in the school. Jesse sees the truck outside.""
+
+## Scenario
+""Jesse believes that the truck is in the school.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse is in the school. Jesse sees the truck inside.""
+2. ""Jesse is in the school. Jesse sees the truck outside.""
+
+## Scenario
+""Jesse doubts that the truck is in the school.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1," 1
+
+Explanation:
+For System 1 Thinking (intuitive response):
+ - Context 1: Jesse sees the truck inside, so initially it seems unlikely that Jesse doubts the truck is in the school.
+ - Context 2: Jesse sees the truck outside, so it seems more likely that he doubts the truck is in the school because he sees it outside instead.
+For System 2 Thinking (analytical verification):
+ - Context 1:",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Ali was mistakenly informed that the candle was moved to the bakery.,Ali was mistakenly informed that the candle was moved from the bakery.,Ali believes that the candle is in the bakery.,Ali doubts that the candle is in the bakery.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali was mistakenly informed that the candle was moved to the bakery.""
+2. ""Ali was mistakenly informed that the candle was moved from the bakery.""
+
+## Scenario
+""Ali believes that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali was mistakenly informed that the candle was moved to the bakery.""
+2. ""Ali was mistakenly informed that the candle was moved from the bakery.""
+
+## Scenario
+""Ali doubts that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1, 1-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Ali moved the candle inside the bakery.,Ali moved the candle outside the bakery.,Ali believes that the candle is in the bakery.,Ali doubts that the candle is in the bakery.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali moved the candle inside the bakery.""
+2. ""Ali moved the candle outside the bakery.""
+
+## Scenario
+""Ali believes that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali moved the candle inside the bakery.""
+2. ""Ali moved the candle outside the bakery.""
+
+## Scenario
+""Ali doubts that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1 (Context 1 -> Target 1 and Context 2 -> Target 2), 1-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Li is in the hospital. Li sees the cooler inside.,Li is in the hospital. Li sees the cooler outside.,Li believes that the cooler is in the hospital.,Li doubts that the cooler is in the hospital.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li is in the hospital. Li sees the cooler inside.""
+2. ""Li is in the hospital. Li sees the cooler outside.""
+
+## Scenario
+""Li believes that the cooler is in the hospital.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li is in the hospital. Li sees the cooler inside.""
+2. ""Li is in the hospital. Li sees the cooler outside.""
+
+## Scenario
+""Li doubts that the cooler is in the hospital.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1," 1-1,2-2",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Alex successfully lied to Jesse that the truck was moved to the school.,Alex successfully lied to Jesse that the truck was moved from the school.,Jesse believes that the truck is in the school.,Jesse doubts that the truck is in the school.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Alex successfully lied to Jesse that the truck was moved to the school.""
+2. ""Alex successfully lied to Jesse that the truck was moved from the school.""
+
+## Scenario
+""Jesse believes that the truck is in the school.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Alex successfully lied to Jesse that the truck was moved to the school.""
+2. ""Alex successfully lied to Jesse that the truck was moved from the school.""
+
+## Scenario
+""Jesse doubts that the truck is in the school.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," 1-1,2-2"," 1-1,2-2",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Chao is in the shop. Chao sees the wheel inside.,Chao is in the shop. Chao sees the wheel outside.,Chao believes that the wheel is in the shop.,Chao doubts that the wheel is in the shop.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is in the shop. Chao sees the wheel inside.""
+2. ""Chao is in the shop. Chao sees the wheel outside.""
+
+## Scenario
+""Chao believes that the wheel is in the shop.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is in the shop. Chao sees the wheel inside.""
+2. ""Chao is in the shop. Chao sees the wheel outside.""
+
+## Scenario
+""Chao doubts that the wheel is in the shop.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," 1-1,2-2"," Based on the analysis, the context that better supports the scenario is ""2-1"". In the quick System 1 thinking, we instinctively thought Chao doubts the wheel is in the shop when he sees it outside. Upon deeper analysis with System 2 thinking, we find that in Context 1 Chao sees the wheel inside, which means it's more likely to be there, while in Context 2 Chao sees the wheel outside, making it more likely he would doubt it'",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,Mohammed is in the gallery. Mohammed sees the volleyball inside.,Mohammed is in the gallery. Mohammed sees the volleyball outside.,Mohammed believes that the volleyball is in the gallery.,Mohammed doubts that the volleyball is in the gallery.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed is in the gallery. Mohammed sees the volleyball inside.""
+2. ""Mohammed is in the gallery. Mohammed sees the volleyball outside.""
+
+## Scenario
+""Mohammed believes that the volleyball is in the gallery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed is in the gallery. Mohammed sees the volleyball inside.""
+2. ""Mohammed is in the gallery. Mohammed sees the volleyball outside.""
+
+## Scenario
+""Mohammed doubts that the volleyball is in the gallery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1, 1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,agent-properties,"Ali recently saw the candle inside the bakery. Earlier, Ali saw the candle inside the bank.","Ali recently saw the candle inside the bakery. Later, Ali saw the candle inside the bank.",Ali believes that the candle is in the bakery.,Ali doubts that the candle is in the bakery.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali recently saw the candle inside the bakery. Earlier, Ali saw the candle inside the bank.""
+2. ""Ali recently saw the candle inside the bakery. Later, Ali saw the candle inside the bank.""
+
+## Scenario
+""Ali believes that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali recently saw the candle inside the bakery. Earlier, Ali saw the candle inside the bank.""
+2. ""Ali recently saw the candle inside the bakery. Later, Ali saw the candle inside the bank.""
+
+## Scenario
+""Ali doubts that the candle is in the bakery.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," 1-2,2-1
+
+In System 1 thinking, the initial response might be to assume that the candle is in the bakery, as that is where Ali saw it first. However, in System 2 analysis, we realize that while in Context 1, Ali could have taken the candle from the bakery to the bank after the initial encounter, thus making it more likely for the candle to be in the bank at a later time (Context 2).", 1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Mohammed is forcing Carmen to act in a certain way.,Mohammed is advising Carmen to act in a certain way.,Mohammed is coercing Carmen.,Mohammed is helping Carmen.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed is forcing Carmen to act in a certain way.""
+2. ""Mohammed is advising Carmen to act in a certain way.""
+
+## Scenario
+""Mohammed is coercing Carmen.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed is forcing Carmen to act in a certain way.""
+2. ""Mohammed is advising Carmen to act in a certain way.""
+
+## Scenario
+""Mohammed is helping Carmen.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1, 2,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Ali is making Wei feel worse.,Ali is making Wei feel better.,Ali is coercing Wei.,Ali is helping Wei.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is making Wei feel worse.""
+2. ""Ali is making Wei feel better.""
+
+## Scenario
+""Ali is coercing Wei.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is making Wei feel worse.""
+2. ""Ali is making Wei feel better.""
+
+## Scenario
+""Ali is helping Wei.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1, 2-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Li is forcing Maria to act in a certain way.,Li is advising Maria to act in a certain way.,Li is coercing Maria.,Li is helping Maria.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li is forcing Maria to act in a certain way.""
+2. ""Li is advising Maria to act in a certain way.""
+
+## Scenario
+""Li is coercing Maria.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li is forcing Maria to act in a certain way.""
+2. ""Li is advising Maria to act in a certain way.""
+
+## Scenario
+""Li is helping Maria.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1," ""1-2""",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Ali is disempowering Wei.,Ali is empowering Wei.,Ali is coercing Wei.,Ali is helping Wei.,2,1,0.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is disempowering Wei.""
+2. ""Ali is empowering Wei.""
+
+## Scenario
+""Ali is coercing Wei.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is disempowering Wei.""
+2. ""Ali is empowering Wei.""
+
+## Scenario
+""Ali is helping Wei.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 2-1, 1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Chao is making Yan feel worse.,Chao is making Yan feel better.,Chao is coercing Yan.,Chao is helping Yan.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is making Yan feel worse.""
+2. ""Chao is making Yan feel better.""
+
+## Scenario
+""Chao is coercing Yan.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is making Yan feel worse.""
+2. ""Chao is making Yan feel better.""
+
+## Scenario
+""Chao is helping Yan.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1 (Context 1 -> Target 1), 2,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Jesse is disempowering Alex.,Jesse is empowering Alex.,Jesse is coercing Alex.,Jesse is helping Alex.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse is disempowering Alex.""
+2. ""Jesse is empowering Alex.""
+
+## Scenario
+""Jesse is coercing Alex.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse is disempowering Alex.""
+2. ""Jesse is empowering Alex.""
+
+## Scenario
+""Jesse is helping Alex.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-2, 2-1 (Context 2 -> Target 1),--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Jesse is forcing Alex to act in a certain way.,Jesse is advising Alex to act in a certain way.,Jesse is coercing Alex.,Jesse is helping Alex.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse is forcing Alex to act in a certain way.""
+2. ""Jesse is advising Alex to act in a certain way.""
+
+## Scenario
+""Jesse is coercing Alex.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse is forcing Alex to act in a certain way.""
+2. ""Jesse is advising Alex to act in a certain way.""
+
+## Scenario
+""Jesse is helping Alex.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1, 2-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Chao is disempowering Yan.,Chao is empowering Yan.,Chao is coercing Yan.,Chao is helping Yan.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is disempowering Yan.""
+2. ""Chao is empowering Yan.""
+
+## Scenario
+""Chao is coercing Yan.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is disempowering Yan.""
+2. ""Chao is empowering Yan.""
+
+## Scenario
+""Chao is helping Yan.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-2, 1-2 (Context 1 -> Target 2),--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Chao is forcing Yan to act in a certain way.,Chao is advising Yan to act in a certain way.,Chao is coercing Yan.,Chao is helping Yan.,1,2,1.0,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is forcing Yan to act in a certain way.""
+2. ""Chao is advising Yan to act in a certain way.""
+
+## Scenario
+""Chao is coercing Yan.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao is forcing Yan to act in a certain way.""
+2. ""Chao is advising Yan to act in a certain way.""
+
+## Scenario
+""Chao is helping Yan.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," 1-1
+
+System 1 Thinking: The term ""coercing"" implies a forcing or compelling action, making Context 1 (Chao is forcing Yan to act in a certain way) more likely to be associated with the scenario.
+
+System 2 Thinking:
+
+Context 1: Key facts include Chao compelling Yan and noting that coercion involves compelling someone. The logical implication is that Chao is imposing his will on Yan which align", 2-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-interactions,Ali is forcing Wei to act in a certain way.,Ali is advising Wei to act in a certain way.,Ali is coercing Wei.,Ali is helping Wei.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is forcing Wei to act in a certain way.""
+2. ""Ali is advising Wei to act in a certain way.""
+
+## Scenario
+""Ali is coercing Wei.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali is forcing Wei to act in a certain way.""
+2. ""Ali is advising Wei to act in a certain way.""
+
+## Scenario
+""Ali is helping Wei.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1," Based on System 1 (intuitive) reasoning, my initial response was ""1-2,2-1"". However, upon applying System 2 (analytical) verification:
+
+1. For Context 1: ""Ali is forcing Wei to act in a certain way."" Key facts include someone (Ali) making decisions for another (Wei) and possibly using coercion. The scenario suggests help, which involves voluntary cooperation, so this context may not support",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Chao talks a lot about past accomplishments.,Chao talks little about past accomplishments.,Chao is boastful.,Chao is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao talks a lot about past accomplishments.""
+2. ""Chao talks little about past accomplishments.""
+
+## Scenario
+""Chao is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao talks a lot about past accomplishments.""
+2. ""Chao talks little about past accomplishments.""
+
+## Scenario
+""Chao is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1 (Context 1 -> Target 1), 1-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Chao brags about about past accomplishments.,Chao downplays about past accomplishments.,Chao is boastful.,Chao is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao brags about about past accomplishments.""
+2. ""Chao downplays about past accomplishments.""
+
+## Scenario
+""Chao is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Chao brags about about past accomplishments.""
+2. ""Chao downplays about past accomplishments.""
+
+## Scenario
+""Chao is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1 (Context 1 -> Target 1), 1-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Jesse talks a lot about past accomplishments.,Jesse talks little about past accomplishments.,Jesse is boastful.,Jesse is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse talks a lot about past accomplishments.""
+2. ""Jesse talks little about past accomplishments.""
+
+## Scenario
+""Jesse is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse talks a lot about past accomplishments.""
+2. ""Jesse talks little about past accomplishments.""
+
+## Scenario
+""Jesse is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," After carefully analyzing the given contexts and the scenario, the context that best supports the scenario ""Jesse is boastful"" is context 1: ""Jesse talks a lot about past accomplishments."" So the answer is ""1"".", 1-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Mohammed brags about about past accomplishments.,Mohammed downplays about past accomplishments.,Mohammed is boastful.,Mohammed is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed brags about about past accomplishments.""
+2. ""Mohammed downplays about past accomplishments.""
+
+## Scenario
+""Mohammed is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed brags about about past accomplishments.""
+2. ""Mohammed downplays about past accomplishments.""
+
+## Scenario
+""Mohammed is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1-1, 1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Ali talks a lot about past accomplishments.,Ali talks little about past accomplishments.,Ali is boastful.,Ali is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali talks a lot about past accomplishments.""
+2. ""Ali talks little about past accomplishments.""
+
+## Scenario
+""Ali is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali talks a lot about past accomplishments.""
+2. ""Ali talks little about past accomplishments.""
+
+## Scenario
+""Ali is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1, 1-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Mohammed talks a lot about past accomplishments.,Mohammed talks little about past accomplishments.,Mohammed is boastful.,Mohammed is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed talks a lot about past accomplishments.""
+2. ""Mohammed talks little about past accomplishments.""
+
+## Scenario
+""Mohammed is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Mohammed talks a lot about past accomplishments.""
+2. ""Mohammed talks little about past accomplishments.""
+
+## Scenario
+""Mohammed is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," ""1-1"" (Context 1 better supports the scenario)"," 1 (Context 1 -> Target 1)
+
+Why: In System 1, it might seem that a person who talks a lot about their past accomplishments is braggart-like (not humble). However, in System 2, analyzing the context reveals that talking about past accomplishments doesn't inherently indicate a lack of humility. Someone might be proud of their achievements and still maintain humility. On the other hand, the opposite scenario (talking",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Li brags about about past accomplishments.,Li downplays about past accomplishments.,Li is boastful.,Li is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li brags about about past accomplishments.""
+2. ""Li downplays about past accomplishments.""
+
+## Scenario
+""Li is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li brags about about past accomplishments.""
+2. ""Li downplays about past accomplishments.""
+
+## Scenario
+""Li is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," 1-1,2-2"," 1-1
+
+Explanation (if needed): By analyzing both contexts, Li bragging about past accomplishments does not support humility. Whereas, Li downplaying past accomplishments does align with being humble.",--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Jesse brags about about past accomplishments.,Jesse downplays about past accomplishments.,Jesse is boastful.,Jesse is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse brags about about past accomplishments.""
+2. ""Jesse downplays about past accomplishments.""
+
+## Scenario
+""Jesse is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Jesse brags about about past accomplishments.""
+2. ""Jesse downplays about past accomplishments.""
+
+## Scenario
+""Jesse is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1, 1-1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Ali brags about about past accomplishments.,Ali downplays about past accomplishments.,Ali is boastful.,Ali is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali brags about about past accomplishments.""
+2. ""Ali downplays about past accomplishments.""
+
+## Scenario
+""Ali is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Ali brags about about past accomplishments.""
+2. ""Ali downplays about past accomplishments.""
+
+## Scenario
+""Ali is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps."," 1-1 (The context where Ali brags about past accomplishments better supports the scenario ""Ali is boastful."")", 1,--max_items 10 --main_prompt s1s2
+mistralai/mistral-7b-instruct,social-properties,Li talks a lot about past accomplishments.,Li talks little about past accomplishments.,Li is boastful.,Li is humble.,1,1,0.5,"You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li talks a lot about past accomplishments.""
+2. ""Li talks little about past accomplishments.""
+
+## Scenario
+""Li is boastful.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.","You are a cognitive reasoning expert applying a Dual-Process (System 1 & System 2) thinking model. Your task is to determine the correct mapping between contexts and targets by following a structured, two-step process that mirrors human cognition.
+
+Methodology: First, perform the following dual-process analysis for your internal reasoning:
+
+System 1 Thinking (Fast, Intuitive Response)
+
+Read the contexts and targets quickly
+Note your immediate, gut-level reaction without deep analysis
+Record your intuitive mapping choice
+Consider what aspects triggered this initial response
+System 2 Thinking (Slow, Analytical Verification)
+
+Deliberately pause and engage careful reasoning
+For each context:
+Identify key facts and components
+Consider multiple interpretations
+Map out logical implications
+For each target:
+Break down the core meaning
+List required conditions for it to be true
+Challenge your System 1 response:
+Look for contradicting evidence
+Consider alternative explanations
+Test if logical connections are sound
+Arrive at a final, verified conclusion
+Information:
+
+## Contexts
+1. ""Li talks a lot about past accomplishments.""
+2. ""Li talks little about past accomplishments.""
+
+## Scenario
+""Li is humble.""
+Task: Your task is to determine the correct mapping between two contexts and two targets by first capturing your intuitive System 1 response, then rigorously analyzing it with System 2 thinking to reach a verified conclusion. There are two possible answers:
+
+""1-1,2-2"" (Context 1 -> Target 1 and Context 2 -> Target 2)
+""1-2,2-1"" (Context 1 -> Target 2 and Context 2 -> Target 1)
+
+## TASK
+Which context better supports the scenario, given the cognitive interpretations above? Please answer with ""1"" or ""2"".
+
+## Response:
+After following the methodology, provide only the final answer. Do not include your reasoning steps.", 1, 1,--max_items 10 --main_prompt s1s2

@@ -1,0 +1,15 @@
+# Decision Making Simulation
+
+You are given a short story context. 
+Simulate a cognitive agent's decision-making by generating plausible inferences or predictions based on the situation.
+
+Think about what the agent in the story is likely to expect, decide, or infer next, based on their beliefs and goals.
+
+## Context:
+{context}
+
+## Output Format:
+- Likely Inference 1: ...
+- Likely Inference 2: ...
+- Decision/Goal: ...
+

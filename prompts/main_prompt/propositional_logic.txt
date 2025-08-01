@@ -1,0 +1,20 @@
+# INSTRUCTIONS
+You are given two contexts, a target statement, and a propositional logic interpretation of each context. Your task is to determine which context makes the target belief more plausible based on the facts and reasoning.
+
+## Contexts
+1. "{context1}"
+2. "{context2}"
+
+## Propositional Logic Interpretation
+Context 1 Logic:
+{propositional_logic_context1}
+
+Context 2 Logic:
+{propositional_logic_context2}
+
+## Target Statement
+"{target}"
+
+## Task
+Based on the logical reasoning and the content of the contexts, which context better supports the target statement?  
+Answer only with "1" or "2".

@@ -1,0 +1,26 @@
+# TASK: Theory of Mind-based Decision
+
+You are given two story contexts and a scenario. For each context, a Theory of Mind representation has been created that describes what each character believes, knows, or wants.
+
+Your task is to decide which Theory of Mind representation better explains the scenario, based on the characters’ mental states.
+
+## Context 1:
+{context1}
+
+## Context 2:
+{context2}
+
+## Scenario:
+{target}
+
+## Theory of Mind for Context 1:
+{tom_context1}
+
+## Theory of Mind for Context 2:
+{tom_context2}
+
+## Task:
+Based on the mental states described above, which context better explains the target scenario?
+Please answer using either "1" or "2".
+
+## Response

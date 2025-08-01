@@ -1,0 +1,4 @@
+Summarize the following context in terms of the agent's Belief, Desire, and Intention. Use one short sentence for each.
+
+Context:
+{context}
