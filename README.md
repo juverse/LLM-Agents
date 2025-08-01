@@ -31,7 +31,7 @@ llm_agents/
 │   ├── local.py              # vLLM local inference
 │   ├── logprob.py            # Log probability evaluation
 │   └── memory.py             # Memory-assisted evaluation
-├── core/                     # Shared utilities
+├── scripts/                     # Shared utilities
 │   ├── evaluation.py         # Core evaluation logic
 │   └── utils.py              # Prompt loading, choice extraction
 ├── prompts/                  # Prompt templates (unchanged)
@@ -197,7 +197,3 @@ Please cite relevant papers (EWOK, CoALA, etc.) as well as this project if you u
 * Marc Baumholz
 
 If you have any questions or comments, just let us know!
-
----
-
-> *Note*: This unified architecture improves maintainability and extensibility while preserving all original research functionality.
