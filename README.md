@@ -163,33 +163,6 @@ Example prompt combinations:
 - `combination_all.txt` - All cognitive modules combined
 - `tom_main.txt` - Theory of Mind focused evaluation
 
-## Development
-
-### Adding New Backends
-
-1. Create new file in `models/` directory
-2. Implement `evaluate_[backend](df, args, main_template, sub_templates)` function
-3. Add backend choice to `main.py` argument parser
-4. Update `core/evaluation.py` routing logic
-
-### Adding New Analysis
-
-1. Add function to `analysis.py`
-2. Update `--format` choices and routing
-3. Ensure compatibility with existing CSV output format
-
-## Migration from Original Structure
-
-The new architecture maintains full backward compatibility:
-- All original functionality preserved
-- Same CLI arguments work (except `--backend` addition)
-- Same output format and file structure
-- Consolidated from 8 Python files to 2 main interfaces
-
-## Citation
-
-Please cite relevant papers (EWOK, CoALA, etc.) as well as this project if you use it.
-
 ## Authors & Contact
 
 * Moritz Lönker
