@@ -4,3 +4,9 @@ tqdm
 pyarrow
 huggingface-hub
 google-genai
+matplotlib
+numpy
+torch
+transformers
+scipy
+datasets

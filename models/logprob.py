@@ -72,7 +72,8 @@ def score_row(row, lp_func) -> Dict[str, float]:
     }
 
 def evaluate_logprob(df, args, main_template=None, sub_templates=None):
-    if args.backend == "vllm":
+    if args.backend == "logprob":
+        # Always use vLLM backend for logprob evaluation
         if OpenAI is None:
             raise RuntimeError("openai package required for vllm backend")
         client = make_vllm_client()

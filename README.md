@@ -1,12 +1,12 @@
-# LLM-Agents (Unified Architecture)
+# LLM-Agents EWoK Cognitive Architectures Benchmark
 
-This project implements cognitively inspired LLM systems for assessing agentic skills using the EWOK benchmark. The codebase has been restructured with a unified architecture that supports multiple evaluation backends through a single interface.
+This project implements cognitively inspired LLM systems for assessing agentic skills using the EWOK benchmark. 
 
 ## Quick Start
 
 ```bash
-# Online evaluation (OpenRouter API)
-python main.py --backend online --model mistralai/mistral-7b-instruct --max_items 20
+# Openrouter evaluation
+python main.py --backend online --model mistralai/mistral-7b-instruct --max_items 10
 
 # Local evaluation (vLLM server)
 python main.py --backend local --max_items 20
@@ -18,26 +18,6 @@ python main.py --backend logprob --model mistralai/Mistral-7B-Instruct-v0.3
 python main.py --backend memory --model mistralai/mistral-7b-instruct
 ```
 
-## Architecture
-
-The unified structure consolidates functionality into clean, modular components:
-
-```
-llm_agents/
-├── main.py                    # Unified CLI entry point
-├── analysis.py               # Combined analysis tools
-├── models/                   # Evaluation backends
-│   ├── online.py             # OpenRouter API calls
-│   ├── local.py              # vLLM local inference
-│   ├── logprob.py            # Log probability evaluation
-│   └── memory.py             # Memory-assisted evaluation
-├── scripts/                     # Shared utilities
-│   ├── evaluation.py         # Core evaluation logic
-│   ├── visualize_results.py  # Visualization
-│   └── utils.py              # Prompt loading, choice extraction
-├── prompts/                  # Prompt templates (unchanged)
-└── results/                  # Evaluation outputs (unchanged)
-```
 
 ## Installation
 
@@ -49,68 +29,41 @@ pip install -r requirements.txt
 ```
 
 2. Set up authentication:
-```bash
-# For online evaluation
-export OPENROUTER_API_KEY="your_key_here"
+Set api keys as environment variables:
+For openrouter: OPENROUTER_API_KEY
+For gemini: GOOGLE_API_KEY
 
-# For HuggingFace datasets
+```bash
+# To get access to the dataset:
 huggingface-cli login
+```
+
+3. Optional: Install vLLM for local or logprob evaluation:
+```bash
+pip install vllm
+
+# Start vLLM server for logprob backend:
+vllm serve mistralai/Mistral-7B-Instruct-v0.3 --port 8000
 ```
 
 ## Usage
 
-### Evaluation Backends
+### Command Line Arguments
 
-**1. Online Evaluation (`--backend online`)**
-- Uses OpenRouter API for cloud-based inference
-- Supports any OpenRouter model
-- Requires `OPENROUTER_API_KEY` environment variable
+**Main evaluation arguments (main.py):**
+- `--backend` - Evaluation method: `online`, `local`, `logprob`, `memory`, `gemini` (default: `online`)
+- `--model` - Model identifier (default: `mistralai/mistral-7b-instruct`)
+- `--max_items` - Number of items per split (default: 100)
+- `--main_prompt` - Main prompt template name without .txt (default: `study`)
+- `--sub_prompts` - Comma-separated sub-prompt names without .txt (default: `belief_desire_intention`)
 
-```bash
-python main.py --backend online \
-    --model mistralai/mistral-7b-instruct \
-    --max_items 100 \
-    --main_prompt study
-```
+**Analysis arguments (analysis.py):**
+- `csv_files` - Path(s) to CSV file(s) to analyze (positional arguments)
+- `--format` - Output format: `analyze`, `table`, `visualize`, `all` (default: `analyze`)
+- `--results_dir` - Directory containing result files (default: `./results`)
 
-**2. Local Evaluation (`--backend local`)**
-- Uses local vLLM server (requires running server on localhost:8000)
-- Faster inference, no API costs
-- Requires vLLM server setup
-
-```bash
-# Start vLLM server first
-vllm serve mistralai/Mistral-7B-Instruct-v0.3 --port 8000
-
-# Run evaluation
-python main.py --backend local --max_items 100
-```
-
-**3. Log Probability Evaluation (`--backend logprob`)**
-- Direct model inference using log probabilities
-- No prompts, just compares context likelihood
-- Supports both vLLM and HuggingFace backends
-
-```bash
-python main.py --backend logprob \
-    --model mistralai/Mistral-7B-Instruct-v0.3 \
-    --max_items 100
-```
-
-**4. Memory-Assisted Evaluation (`--backend memory`)**
-- Uses past evaluation context to improve performance
-- Maintains memory of previous similar tasks
-- Combines online evaluation with memory retrieval
-
-```bash
-python main.py --backend memory \
-    --model mistralai/mistral-7b-instruct \
-    --max_items 100
-```
 
 ### Analysis Tools
-
-The unified `analysis.py` combines all analysis functionality:
 
 ```bash
 # Statistical analysis with significance testing
@@ -126,32 +79,6 @@ python analysis.py --format visualize
 python analysis.py --format all
 ```
 
-### Command Line Arguments
-
-**Main evaluation arguments:**
-- `--backend` - Evaluation method: `online`, `local`, `logprob`, `memory`
-- `--model` - Model identifier (varies by backend)
-- `--max_items` - Number of items per split (default: 100)
-- `--main_prompt` - Main prompt template name (default: 'main')
-- `--sub_prompts` - Comma-separated sub-prompt names (default: 'belief_desire_intention')
-
-**Analysis arguments:**
-- `--format` - Output format: `analyze`, `table`, `visualize`, `all`
-- `--results_dir` - Directory containing result files (default: './results')
-
-## Performance Results
-
-Based on comprehensive evaluations across multiple setups:
-
-| Backend | Model | Overall Accuracy | Performance Notes |
-|---------|-------|------------------|-------------------|
-| memory | mistralai/mistral-7b-instruct | 77.2% | Best performing approach |
-| online | deepseek/deepseek-chat-v3-0324 | 85.0% | Highest single model |
-| local | vllm-quantized | 72.2% | ~1-2% below cloud model |
-| logprob | quantized-mistral | 70.1% | No prompts, pure likelihood |
-
-Memory-assisted evaluation achieves the best performance by leveraging historical context, while local quantized models provide near-identical performance to cloud APIs.
-
 ## Prompt System
 
 The modular prompt system supports:
@@ -159,15 +86,8 @@ The modular prompt system supports:
 - **Sub-prompts** (`prompts/sub_prompts/`): Cognitive module templates
 - **Dynamic composition**: Sub-prompt results feed into main prompts
 
-Example prompt combinations:
-- `study.txt` - Exact prompt from research paper
-- `combination_all.txt` - All cognitive modules combined
-- `tom_main.txt` - Theory of Mind focused evaluation
-
 ## Authors & Contact
 
 * Moritz Lönker
 * Julia Lansche  
 * Marc Baumholz
-
-If you have any questions or comments, just let us know!
